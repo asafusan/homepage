@@ -36,3 +36,12 @@ body {
 .head-wrapper header ul li:hover {
     border-bottom: 1px solid #4cc5e2;
 }
+
+/*Slick*/
+.single-item {
+  direction: ltr;
+  margin: auto;
+  margin-top:80px;
+  width:600px;
+  border:1px solid black; /*will be removed later on*/
+}
