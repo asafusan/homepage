@@ -42,6 +42,31 @@ body {
   direction: ltr;
   margin: auto;
   margin-top:80px;
-  width:600px;
+  height:600px;
+  width: 960px;
   border:1px solid black; /*will be removed later on*/
+}
+
+/*Icons menu bar*/
+.iconMenuBar {
+  margin-top: 80px;
+  height: 400px;
+  background-color: #373d46;
+  color: #4cc5e2;
+}
+.iconMenuBar ul {
+  text-align:center;
+}
+.iconMenuBar ul li {
+  padding: 100px 60px 12px 60px;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+}
+/*font awsome size*/
+.iconMenuBar ul li i {
+  font-size:150px;
+}
+.iconMenuBar ul li:hover {
+  border-bottom: 1px solid #4cc5e2;
 }

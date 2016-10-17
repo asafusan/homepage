@@ -1,4 +1,6 @@
 //Slick
-$('.single-item').slick({
-  centerMode: true
+$(document).ready(function(){
+  $('.single-item').slick({
+    centerMode: true
+  });
 });
