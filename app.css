@@ -2,15 +2,16 @@ body {
   direction: rtl;
   padding: 0px;
   margin: 0px;
+  font-size: 16px;
 }
 
 .container {
-    width: 960px;
-    margin: auto;
+  width: 960px;
+  margin: auto;
 }
 
 /*navbar*/
-.head-wrapper{
+.head-wrapper {
   height: 60px;
   border-bottom: 2px solid;
   background-color: #373d46;
@@ -18,12 +19,12 @@ body {
 }
 
 .head-wrapper h1 {
-    float:right;
+    float: right;
 }
 
 .head-wrapper header ul {
   margin: auto;
-  float:left;
+  float: left;
 }
 
 .head-wrapper header ul li {
@@ -31,8 +32,59 @@ body {
   display: inline-block;
   text-align: center;
   position: relative;
-  font-size: 16px;
 }
 .head-wrapper header ul li:hover {
     border-bottom: 1px solid #4cc5e2;
+}
+
+/*Slick*/
+.single-item {
+  direction: ltr;
+  margin-top :80px;
+  height: 600px;
+  border: 1px solid black; /*will be removed later on*/
+}
+
+/*Icons menu bar*/
+.iconMenuBar {
+  margin-top: 80px;
+  height: 400px;
+  background-color: #373d46;
+  color: #4cc5e2;
+}
+
+.iconMenuBar ul {
+  text-align: center;
+}
+
+.iconMenuBar ul li {
+  padding: 10% 5% 10% 5%;
+  display: inline-block;
+  font-size: 30px;
+  width:200px;
+}
+
+.iconMenuBar ul li i {
+  font-size:150px;   /*Font Awesome size*/
+  display: block;
+}
+
+/*testimonials*/
+.textimonials {
+  text-align: justify;
+}
+
+.testimonials ul {
+  display: block;
+}
+
+.testimonials li {
+  display: inline-block;
+}
+
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  float: right;
+  margin: 0px 0px 20px 20px;
 }
